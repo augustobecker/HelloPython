@@ -3,9 +3,9 @@ CEP 	=	06702300
 all:		quotation
 
 quotation:	
-			python quotation-api.py
+		python quotation-api.py
 
 address:	
-			python find_address.py ${CEP}
+		python find_address.py ${CEP}
 
-.PHONY:		all quotation
+.PHONY:		all quotation address
