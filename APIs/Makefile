@@ -3,7 +3,7 @@ CEP 	=	06702300
 all:		quotation
 
 quotation:	
-		python quotation-api.py
+		python quotations.py
 
 address:	
 		python find_address.py ${CEP}
